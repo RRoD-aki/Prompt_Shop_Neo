@@ -1,3 +1,4 @@
+<img width="1917" height="877" alt="demo" src="https://github.com/user-attachments/assets/51ebd8bc-0b9a-4540-beb2-50147ce895fc" />
 [README_PromptShopNeo.md](https://github.com/user-attachments/files/29653525/README_PromptShopNeo.md)
 # Prompt_Shop_Neo
 プロンプト管理を画像で行う拡張ツールです。
