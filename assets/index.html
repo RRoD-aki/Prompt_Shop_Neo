@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Market | Premium AI Prompt Template</title>
+    <script>document.write(`<link rel="stylesheet" href="style.css?v=${Date.now()}">`);</script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+<button id="sidebarToggle" style="
+    position:fixed;
+    top:10px;
+    left:10px;
+    z-index:2000;
+    background:#111;
+    color:white;
+    border:none;
+    padding:8px 12px;
+    border-radius:6px;
+    cursor:pointer;
+">
+    ☰
+</button>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="logo" id="siteLogo">LOADING...</div>
+            </div>
+            
+            <nav class="sidebar-nav" id="sidebarNav">
+                <!-- Will be populated by main.js -->
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="header-actions">
+                <button class="menu-toggle" id="menuToggle">
+                    <i data-lucide="menu"></i>
+                </button>
+                <div class="search-wrapper">
+                    <i data-lucide="search" style="position: absolute; left: 0.8rem; top: 50%; transform: translateY(-50%); color: var(--text-secondary); width: 1.2rem;"></i>
+                    <input type="text" class="search-input" placeholder="プロンプトを検索...">
+                </div>
+            </header>
+
+            <div class="gallery-container">
+                <div class="prompt-grid" id="promptGrid">
+                    <!-- Cards will be injected by JS -->
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Toast UI -->
+
+
+    
+    <script>
+        
+    </script>
+    <script src="prompts-data.js"></script>
+    <script>document.write(`<script src="main.js?v=${Date.now()}"><\/script>`);</script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

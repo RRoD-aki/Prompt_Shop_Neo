@@ -1,0 +1,98 @@
+{
+  "settings": {
+    "siteTitle": "PROMPT SHOP NEO",
+    "siteLogo": "PROMPT SHOP NEO",
+    "categories": [
+      {
+        "id": "image",
+        "name": "生成画像",
+        "icon": "package",
+        "subCategories": []
+      },
+      {
+        "id": "chara",
+        "name": "キャラクター",
+        "icon": "user",
+        "subCategories": [
+          {
+            "id": "girl",
+            "name": "女の子"
+          },
+          {
+            "id": "boy",
+            "name": "男の子"
+          }
+        ]
+      },
+      {
+        "id": "angle",
+        "name": "アングル",
+        "icon": "camera",
+        "subCategories": []
+      },
+      {
+        "id": "face",
+        "name": "表情",
+        "icon": "smile",
+        "subCategories": []
+      },
+      {
+        "id": "quality",
+        "name": "クオリティタグ",
+        "icon": "wand-sparkles",
+        "subCategories": []
+      }
+    ]
+  },
+  "prompts": [
+    {
+      "id": "1783143432579-oyzqx4ppf1h",
+      "title": "初音ミク",
+      "prompt": "hatsune miku",
+      "image": "assets/1783143432575.png",
+      "category": "girl"
+    },
+    {
+      "id": "1777603568938",
+      "title": "ダッチアングル",
+      "prompt": "dutch angle",
+      "image": "assets/1777603564906.png",
+      "category": "angle"
+    },
+    {
+      "id": "1783075295370",
+      "title": "ゴンザレス",
+      "prompt": "gonzaresu",
+      "image": "assets/no-image.png",
+      "category": "boy"
+    },
+    {
+      "id": "1777586881306",
+      "title": "masterpiece",
+      "prompt": "masterpiece",
+      "image": "assets/no-image.png",
+      "category": "quality"
+    },
+    {
+      "id": "1777586899978",
+      "title": "best quality",
+      "prompt": "best quality",
+      "image": "assets/no-image.png",
+      "category": "quality"
+    },
+    {
+      "id": "1777586918822",
+      "title": "absurdres",
+      "prompt": "absurdres",
+      "image": "assets/no-image.png",
+      "category": "quality"
+    },
+    {
+      "id": "1777603726085",
+      "title": "笑顔",
+      "prompt": "smile",
+      "image": "assets/1777603723252.png",
+      "category": "face"
+    }
+  ]
+}
